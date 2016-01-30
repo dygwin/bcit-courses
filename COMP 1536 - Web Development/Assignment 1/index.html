@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="styles/drag-n-drop.css" />
+<meta charset="utf-8" lang="en">
+<title>Tic-Tac-Toe</title>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Tic-Tac-Toe</h1>
+			<p id="disc">Drag the dragon and rabbit images onto the tic-tac-toe board:</p>
+		</header>
+		<div id="dragonPieces">
+			<img id="dragon1" src="images/dragon.png" alt="dragon1" draggable="true" 
+				ondragstart="drag(event)" width="75" height="75" />
+			<img id="dragon2" src="images/dragon.png" alt="dragon2" draggable="true" 
+				ondragstart="drag(event)" width="75" height="75" />
+			<img id="dragon3" src="images/dragon.png" alt="dragon3" draggable="true" 
+				ondragstart="drag(event)" width="75" height="75" />
+			<img id="dragon4" src="images/dragon.png" alt="dragon4" draggable="true" 
+				ondragstart="drag(event)" width="75" height="75" />
+			<img id="dragon5" src="images/dragon.png" alt="dragon5" draggable="true" 
+				ondragstart="drag(event)" width="75" height="75" />
+		</div>
+		<div id="board">
+			<div class="tile" id="t1" ondrop="dropCheck(event)" ondragover="allowDrop(event)"></div>
+			<div class="tile" id="t2" ondrop="dropCheck(event)" ondragover="allowDrop(event)"></div>
+			<div class="tile" id="t3" ondrop="dropCheck(event)" ondragover="allowDrop(event)"></div>
+			<div class="tile nextLayer" id="t4" ondrop="dropCheck(event)" ondragover="allowDrop(event)"></div>
+			<div class="tile" id="t5" ondrop="dropCheck(event)" ondragover="allowDrop(event)"></div>
+			<div class="tile" id="t6" ondrop="dropCheck(event)" ondragover="allowDrop(event)"></div>
+			<div class="tile nextLayer" id="t7" ondrop="dropCheck(event)" ondragover="allowDrop(event)"></div>
+			<div class="tile" id="t8" ondrop="dropCheck(event)" ondragover="allowDrop(event)"></div>
+			<div class="tile" id="t9" ondrop="dropCheck(event)" ondragover="allowDrop(event)"></div>
+			<div id="status"><h2>&nbsp;</h2></div>
+		</div>
+		<div id="rabbitPieces">
+			<img id="rabbit1" src="images/rabbit.png" alt="rabbit1" draggable="true" 
+				ondragstart="drag(event)" width="75" height="75" />
+			<img id="rabbit2" src="images/rabbit.png" alt="rabbit2" draggable="true" 
+				ondragstart="drag(event)" width="75" height="75" />
+			<img id="rabbit3" src="images/rabbit.png" alt="rabbit3" draggable="true" 
+				ondragstart="drag(event)" width="75" height="75" />
+			<img id="rabbit4" src="images/rabbit.png" alt="rabbit4" draggable="true" 
+				ondragstart="drag(event)" width="75" height="75" />
+			<img id="rabbit5" src="images/rabbit.png" alt="rabbit5" draggable="true" 
+				ondragstart="drag(event)" width="75" height="75" />
+		</div>
+	</div>
+	<script src="js/drag-n-drop.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+.tile {
+	width: 80px;
+	height: 80px;
+	padding: 10px;
+	border: 1px groove #3847ec;
+	float:left;
+}
+
+.nextLayer {
+	clear: both;
+}
+
+h1, p {
+	color: white;
+}
+
+header {
+	height: 120px;
+	padding-left: 15px;
+	margin-bottom: 10px;
+    background-color: rgba(56, 71, 238, 0.50);
+	border: 1px groove #3847ec;
+    box-shadow: -5px 5px 5px  rgba(10, 0, 255, 0.5);
+	text-shadow: -3px 3px 3px  rgba(10, 0, 255, 0.5);
+}
+
+body {
+	background-image: url("../images/background.png");
+    font-family: 'Arial Unicode MS', garamond;
+
+}
+
+#t1, #t3, #t5, #t7, #t9 {
+	background-color: rgba(255, 0, 0, 0.50);
+}
+
+#t2, #t4, #t6, #t8{
+	background-color: rgba(0, 255, 0, 0.50);
+}
+
+#container {
+	width:520px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#board {
+	display: inline;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+    background-color: rgba(0, 233, 255, 0.5);
+    box-shadow: -5px 5px 5px rgba(10, 0, 255, 0.5);
+}
+
+#status {
+	clear:both;
+	color: white;
+	text-align: center;
+	text-shadow: -3px 3px 3px  rgba(10, 0, 255, 0.5);
+	border: 1px groove #3847ec;
+}
+
+#dragonPieces {
+	float: left;
+	width: 75px;
+	height: 390px;
+	padding: 10px;
+	background-color: rgba(255, 255, 0, 0.50);
+	border: 1px groove #3847ec;
+    box-shadow: -5px 5px 5px  rgba(10, 0, 255, 0.5);
+}
+
+#rabbitPieces {
+	float: left;
+	width: 75px;
+	height: 390px;
+	padding: 10px;
+	background-color: rgba(255, 255, 0, 0.50);
+	border: 1px groove #3847ec;
+    box-shadow: -5px 5px 5px  rgba(10, 0, 255, 0.5);
+}

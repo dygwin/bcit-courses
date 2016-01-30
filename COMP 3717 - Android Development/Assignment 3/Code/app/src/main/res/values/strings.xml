@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+
+    <string name="login">Log In</string>
+    <string name="login_hint">A00000000</string>
+    <string name="help">Only A00000001 and A00000002 are valid ID\'s</string>
+    <string name="info">
+        Records first try to be pulled from the SQLite database.
+        If they do not exist, they are then pulled from Mongolab and inserted into the SQLite database.
+    </string>
+</resources>

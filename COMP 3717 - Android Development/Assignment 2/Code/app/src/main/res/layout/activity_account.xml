@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="a00925723.comp3717.bcit.ca.banking.Account">
+
+    <RelativeLayout
+        android:id="@+id/balance_layout"
+        android:background="#212121"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/savings_balance"
+            android:textColor="#fff"
+            android:textSize="50dp"
+            android:id="@+id/balance"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/savings"
+            android:textColor="#ffffff"
+            android:id="@+id/savings"
+            android:layout_below="@+id/balance"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/flat_button"
+        android:text="@string/transaction_info"
+        android:id="@+id/transaction_info"
+        android:gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price1"
+                    android:textColor="#212121"
+                    android:textSize="18sp"
+                    android:text="@string/price1"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/balance1"
+                    android:textSize="18sp"
+                    android:text="@string/balance1"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/desc1"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/desc1"
+                    android:layout_below="@id/price1"
+                    android:paddingLeft="@dimen/activity_vertical_margin"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date1"
+                    android:textSize="12sp"
+                    android:text="@string/date1"
+                    android:layout_below="@id/desc1"
+                    android:paddingLeft="@dimen/activity_vertical_margin"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:layout_gravity="center_vertical"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price2"
+                    android:textColor="#212121"
+                    android:textSize="18sp"
+                    android:text="@string/price2"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/balance2"
+                    android:textSize="18sp"
+                    android:text="@string/balance2"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/desc2"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/desc2"
+                    android:layout_below="@id/price2"
+                    android:paddingLeft="@dimen/activity_vertical_margin"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date2"
+                    android:textSize="12sp"
+                    android:text="@string/date2"
+                    android:layout_below="@id/desc2"
+                    android:paddingLeft="@dimen/activity_vertical_margin"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:layout_gravity="center_vertical"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price3"
+                    android:textColor="#212121"
+                    android:textSize="18sp"
+                    android:text="@string/price3"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/balance3"
+                    android:textSize="18sp"
+                    android:text="@string/balance3"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/desc3"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/desc3"
+                    android:layout_below="@id/price3"
+                    android:paddingLeft="@dimen/activity_vertical_margin"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date3"
+                    android:textSize="12sp"
+                    android:text="@string/date3"
+                    android:layout_below="@id/desc3"
+                    android:paddingLeft="@dimen/activity_vertical_margin"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:layout_gravity="center_vertical"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price4"
+                    android:textColor="#212121"
+                    android:textSize="18sp"
+                    android:text="@string/price4"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/balance4"
+                    android:textSize="18sp"
+                    android:text="@string/balance4"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/desc4"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/desc4"
+                    android:layout_below="@id/price4"
+                    android:paddingLeft="@dimen/activity_vertical_margin"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date4"
+                    android:textSize="12sp"
+                    android:text="@string/date4"
+                    android:layout_below="@id/desc4"
+                    android:paddingLeft="@dimen/activity_vertical_margin"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:layout_gravity="center_vertical"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/flat_button">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/price5"
+                    android:textColor="#212121"
+                    android:textSize="18sp"
+                    android:text="@string/price5"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/balance5"
+                    android:textSize="18sp"
+                    android:text="@string/balance5"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="right"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/desc5"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/desc5"
+                    android:layout_below="@id/price5"
+                    android:paddingLeft="@dimen/activity_vertical_margin"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date5"
+                    android:textSize="12sp"
+                    android:text="@string/date5"
+                    android:layout_below="@id/desc5"
+                    android:paddingLeft="@dimen/activity_vertical_margin"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:layout_gravity="center_vertical"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

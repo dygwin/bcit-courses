@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:rowCount="8"
+    android:columnCount="2"
+    tools:context="a00925723.comp3717.bcit.ca.banking.ContactUs">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/desc"
+        android:textColor="#212121"
+        android:id="@+id/desc"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="15dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_label"
+        android:textColor="#212121"
+        android:id="@+id/phone_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnWeight="0.2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:id="@+id/phone"
+        android:layout_marginTop="8dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toll_label"
+        android:textColor="#212121"
+        android:id="@+id/toll_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnWeight="0.2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toll"
+        android:id="@+id/toll"
+        android:layout_marginTop="8dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:layout_columnWeight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address_label"
+        android:textColor="#212121"
+        android:id="@+id/address_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnWeight="0.2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:id="@+id/address"
+        android:layout_marginTop="8dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:layout_columnWeight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city_label"
+        android:textColor="#212121"
+        android:id="@+id/city_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnWeight="0.2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        android:id="@+id/city"
+        android:layout_marginTop="8dp"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_columnWeight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/postal_label"
+        android:textColor="#212121"
+        android:id="@+id/postal_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnWeight="0.2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/postal"
+        android:id="@+id/postal"
+        android:layout_marginTop="8dp"
+        android:layout_row="5"
+        android:layout_column="1"
+        android:layout_columnWeight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hours_label"
+        android:textColor="#212121"
+        android:id="@+id/hours_label"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnWeight="0.2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hours"
+        android:id="@+id/hours"
+        android:layout_marginTop="8dp"
+        android:layout_row="6"
+        android:layout_column="1"
+        android:layout_columnWeight="1"/>
+</GridLayout>

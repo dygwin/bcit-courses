@@ -1,0 +1,16 @@
+body {
+	background-color: white;
+	text-align: center;
+	background-image: url("../images/background.png");
+}
+
+header {
+	color: #d7ceb2;
+	text-shadow: 1px 1px 0px #2c2e38, 2px 2px 0px #5c5f72;
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+
+canvas {
+	border: 15px ridge #703E1C;
+}

@@ -1,0 +1,35 @@
+textarea {
+    width: 100%;
+}
+
+button {
+    width: 100%
+}
+
+.jumbotron {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+input[type='url'] {
+    width: 100%;
+}
+
+a#logout:link {
+    color: white;
+}
+
+/* visited link */
+a#logout:visited {
+    color: white;
+}
+
+/* mouse over link */
+a#logout:hover {
+    color: yellow;
+}
+
+/* selected link */
+a#logout:active {
+    color: white;
+}
